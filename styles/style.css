@@ -70,6 +70,9 @@ main{
     margin: 0 auto;
     
 }
+section{
+    margin: 130px;
+}
 /* about section styles */
 .about{
     margin-top: 130px;
@@ -99,4 +102,102 @@ main{
 }
 .info-description{
     color: #474747;
+}
+.what-i-do{
+    text-align: center;
+}
+.what-i-do .section-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.what-i-do .section-content{
+    font-weight: 400;
+    font-size: 18px;
+}
+.skill-description{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.logo{
+    margin-bottom: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.skill-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.edu-exp-all{
+    display: flex;
+    justify-content: space-around;
+}
+.summary-title{
+    margin-bottom: 113px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.box-title{
+    margin-bottom: 30px;
+}
+.edu-exp{
+    padding-right: 71px;
+}
+.degree-name{
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 30px;   
+}
+.degree-title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+.college-name{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.description{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.download-button{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* contact me */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 45px;
 }
